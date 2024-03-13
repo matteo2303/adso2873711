@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 body{
-    background-color: #73B770;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='142' height='142' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23009a00' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%2300ba00' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%2329DB17' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%2300ba00' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23009a00' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%2329DB17' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23009a00' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%2329DB17' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%2300ba00' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%2329DB17' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #0A17FF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%230c35fd' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%230f53fa' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23116ff8' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23138af5' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%2315a4f3' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%2318bdf0' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%231AD5EE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
     background-attachment: fixed;
     background-size: cover;
     color: chocolate;
@@ -19,6 +21,7 @@ nav.controls {
        padding: 10px;
        width: 40px;
        transition:all 0.4s ease-in;
+       position: fixed;
     }
       a:is(:hover){
         opacity: 1;
@@ -59,25 +62,25 @@ main{
 
 
         a:is(:link, :visited){
-            background-color: rgb(112, 235, 108);
+            background-color: rgb(2, 2, 22);
             border-radius: 50px;
-            color: black;
+            color: rgb(245, 237, 237);
             display: flex;
             gap: 1rem;
             padding: 1rem;
             text-decoration: none;
-            transition: all 0.2s ease-in;
+            transition: all 0.5s ease-in;
             width: 280px;
 
         i {
-            background-color: rgb(1, 14, 1);
+            background-color: rgb(253, 250, 232);
             border-radius: 20px;
-            color: whitesmoke;
+            color: rgb(4, 4, 7);
             font-style: normal;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.2 ease-in;
+            transition: all 0.5 ease-in;
             height: 34px;
             width: 34px;
 
@@ -87,8 +90,8 @@ main{
         }
            
         a:is(:hover) {
-            transform: scale(1.4) translate(-10px);
-            background-color: white;
+            transform: scale(1.2) translate(-10px);
+            background-color: rgba(0, 0, 0, 0.438);
         }
 
         a:is(:hover) {
@@ -122,6 +125,3 @@ main{
 
     }
 }
-
-
-
