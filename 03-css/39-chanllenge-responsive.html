@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design (Media Queries)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+        *{
+            transition: all 0.2s ease-in;
+        }
+        body {
+            background-color: #e98400;
+            color: #fffc;
+            font-family: Poppins,sans-serif;
+            font-weight: 400;
+        }
+        div.imagenes{
+                display: flex;
+                flex-direction: row;
+                gap: 15rem;
+                margin: 2rem;
+                justify-content: center;
+                background-color: #0009;
+                padding: 1.5rem;
+                width: calc(230px*3);
+                .sprite1{
+                    background: url(images/Superherores-super-craig.webp) no-repeat;
+                    background-position: 0px ;
+                    width: 430px;
+                    height: 850px;
+                    border: 2px solid #fff;
+                    div{
+                        color: #000;
+                        background-color: #fff6;
+                        display: flex;
+                        justify-content: center;
+                        padding: 1.2rem;
+                    }
+                    div:is(:hover){
+                        background-color: #fff9;
+                    }
+                }
+                
+            }
+            div.imagenes{
+                display: flex;
+                flex-direction: row;
+                gap: 1.5rem;
+                margin: 2rem;
+                justify-content: center;
+                background-color: #0009;
+                padding: 1.5rem;
+                width: 1920px;
+                .sprite2{
+                    background: url(images/Toolshed.transparent.webp) no-repeat;
+                    background-position: 0px ;
+                    width: 430px;
+                    height: 850px;
+                    border: 2px solid #fff;
+                    div{
+                        color: #000;
+                        background-color: #fff6;
+                        display: flex;
+                        justify-content: center;
+                        padding: 1.2rem;
+                    }
+                    div:is(:hover){
+                        background-color: #fff9;
+                    }
+                }
+                
+            }
+        main {
+            padding: 4rem;
+        }
+        main header figure.logo {
+            background: url(images/South_Park_logo.png) no-repeat center;
+            margin: 0 auto;
+            width: 919px;
+            height: 354px;
+        }
+        main p {
+            line-height: 2rem;
+            text-align: justify;
+        }
+        main h1 {
+            font-size: 4rem;
+            text-align: center;
+        }
+        main h1 span.small, 
+        main h1 span.medium {
+            display: none;
+        }
+        @media (max-width: 1024px) {
+            main header figure.logo{
+                background: url(images/South_Park_logo.png )no-repeat center;
+                width: 348px;
+                height: 370px;
+            }
+            main h1 span.small,
+            main h1 spna.large {
+                display: none;
+            }
+            main h1 {
+                font-size: 2.8rem;
+            }
+        }
+        @media (max-width: 780px) {
+            main header figure.logo{
+                background: url( images/South_Park_logo.png )no-repeat center;
+                width: 162px;
+                height: 156px;
+            }
+            main h1 span.small,
+            main h1 spna.large {
+                display: none;
+            }
+            main h1 span.small{
+                display: inline;
+            }
+            main h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <header>
+        <figure class="logo"></figure>
+    </header>
+    <div class="imagenes">
+        <div class="sprite1"><div>SUPER CRAIG</div></div>
+        <div class="sprite2"><div>TOOLSHEAD</div></div>
+        <div class="sprite"><div>TWEK MARAVILLA</div></div>
+        <div class="sprite"><div>EL MAPACHE</div></div>
+    </div>
+    <section>
+        <h1>
+            
+           
+        </h1>
+        <p>
+            
+    </section>
+</main>
+</body>
+</html>
