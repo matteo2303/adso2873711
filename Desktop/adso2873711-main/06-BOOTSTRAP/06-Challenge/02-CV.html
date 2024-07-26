@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Mateo Herrera Vargas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(65deg, #B8B7B7 55%, #2BAE5F 50%);
+        }
+        .avatar {
+            max-width: 500px;
+        }
+        .service-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+      
+        
+        h4.text-primary {
+            color: #2BAE5F !important; 
+        }
+        .btn-primary{
+            background-color: #2BAE5F;
+            width: 180px;
+            height: 70px;
+            border: #2BAE5F;
+       }
+       .project-card {
+            width: 380px; /* Ancho fijo del contenedor */
+            height: 430px; /* Altura fija del contenedor */
+            overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+            margin: 10px; /* Espacio opcional entre tarjetas */
+            border: 1px solid #ddd; /* Borde opcional */
+            border-radius: 8px; /* Bordes redondeados opcional */
+            background-color: #f5f5f5; /* Color de fondo opcional */
+        }
+        .project-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover 100px; /* Ajusta la imagen para que cubra todo el contenedor */
+            display: block; /* Elimina el espacio extra debajo de la imagen */
+        }
+        .progress-bar{
+            background-color: #2BAE5F;
+        }
+        .me-3{
+            color: #2BAE5F;
+        }
+        
+
+      
+        
+
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"> Mateo herrera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#HOME">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ABOUT">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#SERVICES">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#PORTAFOLIO">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div  id=HOME class="hero-section py-5">
+        <div class="container">
+            
+
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h4 class="text-primary">Hi! I'm</h4>
+                    <h1 class="display-4 fw-bold">Mateo Herrera</h1>
+                    <p class="lead">Tecnologo en desarrollador y Analisis de software</p>
+                    <p>soy tecnico en administrador de empresas  y  tengo las capacidades necesarias para ser un buen desarrolador  por la concentracion que tengo y las ganas de aprender cada vez mas</p>
+                    <button class="btn-primary">Hire me</button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="../imagenes/Captura_de_pantalla_2024-07-19_102737-removebg-preview.png" alt="Avatar" class="avatar img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id = ABOUT class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="../imagenes/Captura_de_pantalla_2024-07-19_102701-removebg-preview-removebg-preview.png" >
+                </div>
+                <div class="col-md-6 text-start">
+                    <h2>Why You Hire Me?</h2>
+                    <p>mis capacidades mas buenas es trabajar con HTML Y CSS  son con las que mejor tengo un desempeño aparte de dart</p>
+                    <p class="text-hulk"><b>Ui/UX Design</p></b>
+                    <div class="progress mb-3">
+                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                    </div>
+                    <p class="text-hulk"><b>Wed Design</p></b>
+                    <div class="progress mb-3">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <p class="text-hulk"><b>HTML/CSS</p></b>
+                    <div class="progress mb-3">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <p class="text-hulk"><b>Sketch</p></b>
+                    <div class="progress mb-3">
+                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id = SERVICES  class="services-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Services I Provide</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="../imagenes/simbolo1.png">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            El diseño grafico se refiere al arte y la practica de combinar imagenes visuales y texto para comunicar mensajes y conceptos de manera efectiva y atractiva.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="../imagenes/simbolo 2.png" alt="">
+                        <h3>Web Design</h3>
+                        <p>El diseño web se centra en la creacion y estructuracion visual de sitios web, asegurando una experiencia de usuario intuitiva y atractiva mediante el uso de diseño grafico, tecnologias web y principios de usabilidad</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="../imagenes/simbolo 3.png" alt="">
+                        <h3>UI/UX Design</h3>
+                        <p> se enfoca en mejorar la experiencia del usuario (UX) al interactuar con interfaces (UI), asegurando que sean intuitivas, accesibles y agradables visualmente para facilitar la navegacion y el uso de aplicaciones y sitios web</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="../imagenes/simbolo 4.png" alt="">
+                        <h3>Frontend Development</h3>
+                        <p>se ocupa de crear la parte visual y interactiva de sitios web y aplicaciones, utilizando lenguajes como HTML, CSS y JavaScript para asegurar una experiencia de usuario efectiva y atractiva.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="../imagenes/simbolo 4.png" alt="">
+                        <h3>Business Analysis</h3>
+                        <p>se centra en identificar necesidades, problemas y oportunidades dentro de una organización para recomendar soluciones que mejoren eficiencia, procesos y resultados.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="../imagenes/simbolo 6.png" alt="">
+                        <h3>Digital Marketing</h3>
+                        <p>se refiere a la promoción de productos o servicios utilizando estrategias y canales digitales como redes sociales, motores de búsqueda, correos electrónicos y sitios web para alcanzar y conectar con audiencias específicas de manera efectiva</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id = PORTAFOLIO  class="portfolio-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Latest Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <img src="../imagenes/Captura de pantalla 2024-07-26 072943.png" alt="Project 1">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <img src="../imagenes/Captura de pantalla 2024-07-26 073105.png" alt="Project 2">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <img src="../imagenes/Captura de pantalla 2024-07-26 073258.png" alt="Project 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4">
+        <div class="container text-center">
+            <p>Mateo herrera</p>
+            <div class="social-icons">
+                <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>mateoherrerav@gmail.com</p>
+            <nav>
+                <a href="#" class="me-3">Home</a>
+                <a href="#" class="me-3">About</a>
+                <a href="#" class="me-3">Services</a>
+                <a href="#" class="me-3">Portfolio</a>
+            </nav>
+            <p>© All Rights Reserved 2024</p>
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
